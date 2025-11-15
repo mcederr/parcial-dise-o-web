@@ -253,3 +253,10 @@ footer {
 	       margin: 0.5rem 0;
        }
 }
+
+.error {
+    color: #d8000c; /* Rojo para mensajes de error, fácil de identificar */
+    font-size: 0.95em; /* Tamaño ligeramente menor para diferenciar del texto normal */
+    margin-top: 0.2em; /* Espacio entre campo y mensaje de error */
+    min-height: 1.2em; /* Reserva espacio para evitar saltos de contenido */
+}
