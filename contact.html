@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Parcial - Nombre Personal</title>
+	<link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script defer src="script.js"></script>
+</head>
+<body>
+	<header>
+	       <div class="header-content">
+		       <h1 class="header-title">Ficha Personal</h1>
+		       <nav class="header-nav">
+			       <ul>
+				       <li><a href="index.html">Inicio</a></li>
+				       <li><a href="#contacto">Contacto</a></li>
+			       </ul>
+		       </nav>
+			   <button id="toggle-dark" class="btn"><i class="fa fa-moon-o fa-lg" aria-hidden="true"></i></button>
+	       </div>
+	</header>
+	<main>
+        <section id="inicio">
+		       <h1 class="centrado">Martin 	Andr&eacute;s Cederbaum</h1>
+	    </section>
+		<section class="contenido-inicio">
+			<div class="formulario">
+				<form>
+					<label for="nombre">Nombre Y Apellido:</label>
+					<input type="input" id="nombre" name="nombre">
+					<label for="edad">Edad:</label>
+					<input type="edad" id="edad" name="edad">
+                    <label for="email">Email:</label>
+					<input type="email" id="email" name="email">
+                    <label for="email">Comentario:</label>
+					<textarea name="comment" form="usrform"></textarea>
+				</form>
+			</div>
+		</section>
+		<section class="botones">
+			<button id="fanpage">Enviar</button>
+			<button id="local">Borrar</button>
+		</section>
+	</main>
+	<footer>
+		<div class="footer-content">
+			<a href="http://www.uade.edu.ar" target="_blank"><img src="img/uade.png" alt="Logo UADE" class="footer-img left"></a>
+            <span class="footer-text">Todos los derechos reservados</span>
+			<a href="https://github.com/" target="_blank"><img src="img/github.jpg" alt="Logo GitHub" class="footer-img right"></a>
+		</div>
+	</footer>
+</body>
+</html>
